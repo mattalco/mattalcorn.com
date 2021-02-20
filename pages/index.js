@@ -1,4 +1,3 @@
-import styled, { keyframes, createGlobalStyle } from "styled-components";
 import React from "react";
 import Leadspace from "../components/leadspace";
 import Experience from "../components/experience";

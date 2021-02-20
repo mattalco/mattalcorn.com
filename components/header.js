@@ -20,6 +20,11 @@ const SectionContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 425px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 const HomepageLink = styled.a`

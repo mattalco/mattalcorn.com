@@ -36,6 +36,10 @@ const ListItem = styled.div`
   &:active {
     transform: scale(1);
   }
+
+  @media (max-width: 425px) {
+    width: 100%;
+  }
 `;
 
 const ItemContent = styled.div`

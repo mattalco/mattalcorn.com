@@ -1,13 +1,13 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Head from "next/head";
+import "../node_modules/normalize.css";
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
+  body { 
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
   }
+  
   p {
     margin: 0;
   }

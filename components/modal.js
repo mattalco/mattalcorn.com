@@ -29,8 +29,6 @@ const FadeOut = keyframes`
 
 const ModalDialog = styled.div`
   position: fixed;
-  width: 100vw;
-  height: 100vh;
   z-index: 50;
   top: 0;
   right: 0;
@@ -61,6 +59,11 @@ const ModalHeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 425px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 const Modal1 = styled.div`
@@ -82,6 +85,11 @@ const Modal3 = styled.div`
   width: 48rem;
   margin-right: auto;
   margin-left: auto;
+
+  @media (max-width: 425px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 export default function Modal(props) {
